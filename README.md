@@ -1,5 +1,31 @@
 # ODD2023-DataScience-Ex-03
 
+# Aim
+To read the given data and perform the univariate analysis with different types of plots.
+
+# Explanation
+Univariate analysis is basically the simplest form to analyze data. Uni means one and this means that the data has only one kind of variable. The major reason for univariate analysis is to use the data to describe. The analysis will take data, summarise it, and then find some pattern in the data.
+
+# Algorithm :
+## Step1
+Read the given data.
+
+## Step2
+Get the information about the data.
+
+## Step3
+Remove the null values from the data.
+
+## Step4
+Mention the datatypes from the data.
+
+## Step5
+Count the values from the data.
+
+## Step6
+Do plots like boxplots,countplot,distribution plot,histogram plot.
+
+# Program:
 ```
 import pandas as pd
 from scipy import stats
@@ -181,3 +207,6 @@ sns.histplot(x = 'Sales',data = numeric_cols)
 sns.countplot(x="Postal Code", data=numeric_cols)
 ```
 ![image](https://github.com/Vaish-1011/ODD2023-DataScience-Ex-03/assets/135130074/74bf18cb-8a8b-4826-a6f7-841a56eabf84)
+
+# RESULT:
+Thus we have read the given data and performed the univariate analysis with different types of plots.
